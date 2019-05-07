@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Enter a puppy or other animal into the database</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="~/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <h1>List of Animals</h1>
+    <form action="/furballs" method="post">
+      <label for="type">Enter the type of animal that is checking in. </label>
+      <input id="type" name="type" type="text">
+      <label for="name">Enter the name of the animal checking in </label>
+      <input id="name" name="name" type="text">
+      <label for="breed">Enter the breed checking in</label>
+      <input id="breed" name="breed" type="text">
+      <label for="sex">Enter the sex of the animal checking in</label>
+      <input id="sex" name="sex" type="text">
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<ul>
+  @foreach (var animal in Model)
+  {
+      <li><a href=/Furballs/@animal.GetId()>@animal.GetName() @animal.GetBreed()</a></li>
+  }
+</ul>
